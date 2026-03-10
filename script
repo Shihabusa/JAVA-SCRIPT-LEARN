@@ -35,3 +35,15 @@ MDN web dock e gia explore kore new new jinis sikhte paro;
 switch statement er use;
 alert diye one time alart popup korano jay;
 prompt alart er moto massage dey+ input o ney;
+
+3rd video:
+
+loops er kaj,for loop,for loop use kore sum ber kora;
+infinite loop;
+while loop,while(condition){
+    condition true thaka porjonto cholbe
+};
+do-while loop,do -while loop 1 bar holeo run korbe;
+for-of loop,for-in loop er kak ki kivabe likhe;
+only use for sring and array not for objects,objects er jonno for-in loop use kori;
+
