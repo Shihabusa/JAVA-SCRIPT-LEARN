@@ -27,5 +27,7 @@ assignment operator =,+=,-+,*=,%=,**= er kaj ;
 ==,!==,===,!=== er kaj;
 logical operator && ,||,! er kaj;
 
-if er use,if-else statement;
-even odd number ber kora if else use kore
+if er use,if-else statement,else if statement;
+even odd number ber kora if else use kore;
+ternary operator 3 operamts er upor kaj kore;
+a?b:c;a true hole b false hole c;
