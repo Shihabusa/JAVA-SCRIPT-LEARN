@@ -46,4 +46,15 @@ while loop,while(condition){
 do-while loop,do -while loop 1 bar holeo run korbe;
 for-of loop,for-in loop er kak ki kivabe likhe;
 only use for sring and array not for objects,objects er jonno for-in loop use kori;
+string
+"",'' duita tei stri==ng create kora jay
+string length ber kora,str.length;
+string er carecter pawa,str.[poisution],
+template literates,`` diye create kora;
+\n diye new line create kora jay;
+\t tab or space create kore;
+str.toUppercase(),str.toLowercase(),str.trim() er kaj ki ki ken use kori;
+trim use korle first-last er extra space kete dibe majkhaner kono jaygay besi thakle oita katbe na;
+.slice(start,end?),.concat(str2),.replace(searchval,newval),.charAt(idx) er ki ki kaje use hoy;
+
 
