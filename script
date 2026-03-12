@@ -57,4 +57,15 @@ str.toUppercase(),str.toLowercase(),str.trim() er kaj ki ki ken use kori;
 trim use korle first-last er extra space kete dibe majkhaner kono jaygay besi thakle oita katbe na;
 .slice(start,end?),.concat(str2),.replace(searchval,newval),.charAt(idx) er ki ki kaje use hoy;
 
+4th video:
 
+jeta kheyal rakhte hbe push/pop kaj kore pichone (sheshe). Ar unshift/shift kaj kore samne.
+
+C++ ba Java te ek array te shudhu ek rokomer data (jemon shudhu number) rakha jay. Kintu JavaScript ekta bindass language! Tumi chaile ek array-r vitor number, string, boolean shob eksathe rakhre paro.
+let mixedBag = ["Rakib", 25, true, null]; (Eta ekdom valid!)
+Tumi chaile index dhore data change korte paro. Jemon: friends[0] = "Liton"; korle Sakib er jaygay Liton replace hoye jabe.
+includes() - Khuje ber kora (Ache ki nai?)
+indexOf() - Koto number e ache? (Position ber kora)
+slice() - Kete neya (Tukro kora)
+splice() - Majhkhan theke delete ba add kora (Asol Operation!)
+splice korle real array er i kete jay ;
