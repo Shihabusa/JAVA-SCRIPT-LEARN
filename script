@@ -56,6 +56,7 @@ template literates,`` diye create kora;
 str.toUppercase(),str.toLowercase(),str.trim() er kaj ki ki ken use kori;
 trim use korle first-last er extra space kete dibe majkhaner kono jaygay besi thakle oita katbe na;
 .slice(start,end?),.concat(str2),.replace(searchval,newval),.charAt(idx) er ki ki kaje use hoy;
+loop e break,continue er kaj is important;
 
 4th video:
 
@@ -69,3 +70,6 @@ indexOf() - Koto number e ache? (Position ber kora)
 slice() - Kete neya (Tukro kora)
 splice() - Majhkhan theke delete ba add kora (Asol Operation!)
 splice korle real array er i kete jay ;
+
+5th video:
+ 
