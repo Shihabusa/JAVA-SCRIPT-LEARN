@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of dom</title>
+    <style>
+        li{
+            color: rgb(227, 6, 32);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>hi i am shihab</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil magnam libero iste sed a dolorum dolorem quia suscipit illum ipsam quis laboriosam accusamus impedit sit possimus optio sapiente, harum deserunt!</p>
+    </header>
+    <main>
+        <section>
+            <h1>valobasa peramoy</h1>
+        
+        <ol>
+            <li>shihab</li>
+            <li>kabila</li>
+            <li>jambura</li>
+        </ol>
+        </section>
+
+       <section>
+         <h1>life is so boaring</h1>
+        <ul>
+            <li class="life">eka eka lage</li>
+            <li class="life">taka nai</li>
+            <li class="life">lozza lage</li>
+        </ul>
+        
+    </section>
+    <section>
+        <h1>place i like to visit</h1>
+        <ol>
+            <li>sundarban</li>
+            <li>kataban</li>
+            <li>lalban</li>
+        </ol>
+    </section>
+       </main>
+    <script src="/Tour of Dom/dom1.js"></script>
+    <script>
+        let licol=document.getElementsByTagName('li')
+        console.log(licol)//li er 3 ta li console e dekhabe
+        for(const li of licol){
+            console.log(li);
+            console.log(li.innerText)//sudhu text gula dekhabe
+        }
+        let hlist=document.getElementsByTagName('h1')
+        for(let h1 of hlist ){
+            console.log(h1)
+            console.log(h1.innerText)//sudhu text gula dekhabe
+        }
+    </script>
+</body>
+</html>

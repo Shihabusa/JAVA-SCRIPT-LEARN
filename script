@@ -72,4 +72,13 @@ splice() - Majhkhan theke delete ba add kora (Asol Operation!)
 splice korle real array er i kete jay ;
 
 5th video:
- 
+ Dom
+ doccument object model
+ doccument use kore ken etar vitor html,css ,js thake,html er access pawa jay etar madhhome
+ kono ekta index file create er por live server er console e giye doccument.getElementsByTagName('jekono tah name')use kore jekono tagname er under er sob element ke access kora jay
+tagname e for (const li of liitem) use kore sob li print kora;
+getElementsById,getElementsByClass er kaj ki , innerText use kore oi selected element er text easily change
+cntrl+alt+down diye onk gula eksathe select kore same lekha likha jay
+25-3
+
+

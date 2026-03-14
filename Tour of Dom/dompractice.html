@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom practice</title>
+
+</head>
+<body>
+    <!-- get id class -->
+    <h1 id="heading">Hello World</h1>
+    <p class="pera">Amra JS shikhchi!</p> 
+    <button id="magicbtn">Click Me!</button>
+   <h1 id="textCh">Ami sadha-matha text</h1>
+    <!-- <script>
+        let amarTitle = document.getElementById("heading");
+        let amarPera = document.getElementsByClassName("pera");
+        let smartTitle=document.querySelector("#heading")
+        let smartp=document.querySelector(".pera")
+    </script>  -->
+
+    <script>
+        let amartitle=document.getElementById("heading")
+        amartitle.innerText="Hello shihab kemon aso tmi"
+       
+        amartitle.innerHTML="Hello <b>Shihab</b>! DOM e swagotom!";
+        // Text er color red korlam
+        amartitle.style.background="red"
+        amartitle.style.color="white"
+        amartitle.style.fontSize = "50px";
+        //button er kaj
+        let button=document.getElementById("magicbtn")
+        let text=document.getElementById("textCh")
+        button.addEventListener("click", function() {
+        // Keu button e click korlei ei vitorer code ta kaj korbe!
+        text.innerText = "Boom! Jadu dekhecho?";
+        text.style.color = "purple";
+});
+        
+
+
+    </script>
+
+
+</body>
+</html>
