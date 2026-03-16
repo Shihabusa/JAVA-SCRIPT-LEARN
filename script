@@ -81,34 +81,9 @@ getElementsById,getElementsByClass er kaj ki , innerText use kore oi selected el
 cntrl+alt+down diye onk gula eksathe select kore same lekha likha jay
 25-3
 getElementsByTagName,getElementsById,getElementsByClassName egula use kore colour property change;
-
-
-body{
-font-family: Arial;
-background:#f4f4f4;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
+for (const name of element){
+    console.log(name)/diye ki hoy
+    console.log(name.innerText )diye ki hoy
 }
+html collection vs nodelist er maje parthokkko
 
-.container{
-background:white;
-padding:30px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.2);
-text-align:center;
-}
-
-input{
-padding:8px;
-margin:10px;
-width:100px;
-font-size:16px;
-}
-
-#total{
-font-weight:bold;
-font-size:20px;
-color:green;
-}
