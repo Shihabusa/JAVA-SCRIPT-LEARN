@@ -1,0 +1,9 @@
+.big-text{
+    text-align: center;
+    font-size: large;
+}
+.text-all{
+    text-decoration: dotted;
+    color: bisque;
+    margin: 200px;
+}
