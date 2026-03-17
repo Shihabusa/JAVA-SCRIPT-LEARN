@@ -103,3 +103,6 @@ kono ager class ke call kore
 class.append(li1 )kore dilei new jinis add hoye jabe real element
 parentNode diye parent node check kora jay
 
+25-8
+append use kore single element add like li ,
+appent child kore kmne section,ul,li h1 egula main er under e add kora main re ekta class define kore
