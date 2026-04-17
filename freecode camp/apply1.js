@@ -17,4 +17,21 @@
 
 // console.log(listItems);
 
-//
+//creating elements using DOM
+
+const ul=document.querySelector('ul');
+const li=document.createElement('li');
+//adding element to the list
+ul.append(li)
+//modifying the text
+
+// const firstitem=document.querySelector('.movie');
+
+// console.log(firstitem.innerText)
+// console.log(firstitem.textContent)
+// console.log(firstitem.innerHTML)
+
+li.innerText="The Lord of the Rings";
+
+//modifying the attribute or class of the element
+
