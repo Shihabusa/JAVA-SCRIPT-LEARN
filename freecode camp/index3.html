@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation</title>
+    <style>
+        /* General Page Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #1a2a33, #334756); /* Dark blue gradient */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.con-box {
+  text-align: center;
+  width: 90%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+/* Card Layout */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  flex-wrap: wrap;
+}
+
+/* Individual Card Styling */
+.card-1,
+.card-2,
+.card-3 {
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 60px 40px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-1 h2,
+.card-2 h2,
+.card-3 h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+/* Button Styling */
+.btn-1,
+.btn-2,
+.btn-3 {
+  background: transparent;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 8px;
+  padding: 10px 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-1:hover,.btn-2:hover,.btn-3:hover {
+  background: white;
+  color: #1a2a33;
+}
+    </style>
+</head>
+<body>
+    <div class="con-box">
+  <h1 id="main-heading">Event Listeners</h1>
+  
+  <div class="container">
+    <div class="card-1">
+      <h2 id="heading">Example 1</h2>
+      <!-- <button class="btn-1" onclick="alert('i am a good boy')">Enter</button>  -->
+      <button class="btn-1" >Enter</button>
+       
+    </div>
+
+    <div class="card-2">
+      <h2 id="heading">Example 2</h2>
+      <button class="btn-2">Enter</button>
+    </div>
+
+    <div class="card-3">
+      <h2 id="heading">Example 3</h2>
+      <button class="btn-3">Enter</button>
+    </div>
+  </div>
+</div>
+<script src="apply3.js"></script>
+</body>
+</html>
