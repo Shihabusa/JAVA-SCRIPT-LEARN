@@ -35,3 +35,12 @@ li.innerText="The Lord of the Rings";
 
 //modifying the attribute or class of the element
 
+// li.setAttribute('class','movie');
+// li.removeAttribute('class');
+li.classList.add('movie');
+//li.classList.remove('movie');
+console.log(li.classList.contains('movie'));//check if the class is present or not
+
+//remove element
+
+// li.remove();
