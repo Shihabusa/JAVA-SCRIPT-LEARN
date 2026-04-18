@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Event Listener</title>
+   <style>
+    body {
+    background: linear-gradient(to bottom, #1b262c, #2c3e50);
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    margin: 80px;
+    min-height: 100vh;
+}
+#main-heading {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+/* Flexbox container for side-by-side view */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Makes boxes same height */
+    gap: 20px;
+    max-width: 800px;
+}
+
+/* Shared Box Styling */
+.boxes {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    background: transparent;
+}
+
+/* Specific Button Styling */
+.reveal-btn {
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    width: 200px;
+    transition: background 0.3s;
+}
+
+.reveal-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Hidden Content Box */
+.hidden-content {
+    display: none; /* Hidden by default */
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    flex: 1; /* Allows the text box to take up remaining space */
+}
+
+/* This class will be toggled via JavaScript */
+.reveal-content {
+    display: block;
+}
+   </style>
+</head>
+<body>
+    <h1 id="main-heading">Event Listeners</h1>
+
+<div class="container">
+    <button class="reveal-btn boxes">Reveal More</button>
+
+    <div class="hidden-content boxes">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quia distinctio hic facilis, repudiandae incidunt quisquam 
+            neque officiis quibusdam cum quam suscipit dolorem animi 
+            aliquid harum. Unde sed illo aut officiis inventore quod 
+            quibusdam, ipsam aliquam reprehenderit ad minima sit ipsa? 
+            Ducimus nesciunt laudantium deleniti porro maxime molestias 
+            reiciendis, hic omnis?
+        </p>
+    </div>
+</div>
+<script src="apply4.js"></script>
+</body>
+</html>
